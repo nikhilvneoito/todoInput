@@ -1,0 +1,13 @@
+{
+  "name": "todoInput",
+  "type": "ui-elements",
+  "source": {
+    "https": "https://github.com/nikhilvneoito/todoInput",
+    "ssh": "git@github.com:nikhilvneoito/todoInput.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
